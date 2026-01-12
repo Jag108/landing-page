@@ -89,7 +89,46 @@ ul, a {
     gap: 16px;
 }
 
-.pic img{
+.pic img {
     border: 5px solid #3882f6;
     border-radius: 25px;
 }
+
+.info-quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.who-said {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    padding-right: 48px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cta {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 50px;
+    margin: 25px;
+}
+

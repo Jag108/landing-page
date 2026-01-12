@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto serif;
+}
+
+body, .header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.header-container, .footer {
+    background-color: #1f2937;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+ul, a {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    color: #f9faf8;
+    gap: 16px;
+}
+

@@ -49,6 +49,8 @@ ul, a {
     align-items: center;
     padding: 16px;
     flex: 1;
+    gap: 8px;
+    flex-wrap: wrap;
 }
 
 .hero {
@@ -97,6 +99,7 @@ ul, a {
 .info-content {
     display: flex;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 .pic img {
@@ -118,6 +121,7 @@ ul, a {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
+    flex: 1;
 }
 
 .who-said {

@@ -25,7 +25,6 @@ body, .header-container {
     justify-content: space-around;
     align-items: flex-start;
     padding: 8px;
-    font-family: Roboto;
 }
 
 ul, a {
@@ -69,3 +68,28 @@ ul, a {
     border-color: #3882f6;
 }
 
+/* add header img css here */
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+#info-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-content {
+    display: flex;
+    gap: 16px;
+}
+
+.pic img{
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+}

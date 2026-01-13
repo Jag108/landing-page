@@ -112,6 +112,7 @@ ul, a {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
+    padding: 16px;
     flex: 1;
 }
 
@@ -122,6 +123,9 @@ ul, a {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
+    width: auto;
+    height: 300px;
+    padding: 16px;
     flex: 1;
 }
 

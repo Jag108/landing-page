@@ -74,7 +74,8 @@ ul, a {
     height: auto;
     padding: 5px;
     background-color: #3882f6;
-    border-radius: 25px;
+    border-radius: 5px;
+    border: 0;
     color: #e5e7eb;
     border-color: #3882f6;
 }
@@ -104,7 +105,7 @@ ul, a {
 
 .pic img {
     border: 5px solid #3882f6;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 .info-quote {
@@ -146,8 +147,35 @@ ul, a {
     width: 1000px;
     padding: 50px;
     margin: 25px;
-    border-radius: 25px;
+    border-radius: 5px;
+
     flex: 0 1 auto;
+}
+
+.cta-title {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.cta-subtext {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+#cta-button {
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #e5e7eb;
+    border-color: #e5e7eb;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .footer {
